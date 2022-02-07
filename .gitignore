@@ -1,0 +1,27 @@
+# .gitignore sugar default
+#test
+*.log
+/.htaccess
+/config.php
+/config_override.php
+/cache
+/upgrades/module
+/upload
+/custom/blowfish
+/custom/history
+/custom/application/Ext
+/custom/modules/*/Ext
+/custom/Extension/**/*orderMapping.php
+
+# add custom ignore
+/configFile/
+/nbproject
+/repair.sh
+/.idea
+/custom/modulebuilder/
+/custom/working/
+/silentUpgrade*.php
+/upload
+/upload_backup
+/DISABLED-PACKAGES
+/cachebak
